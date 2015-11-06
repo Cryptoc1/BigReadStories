@@ -9,6 +9,9 @@ document.getElementById('fButton').onchange = function () {
             if (img.height > img.width) {
                 img.style.width = "100%";
                 img.style.height = "auto";
+            } else {
+                img.style.height = "100%";
+                img.style.width = "auto";
             }
             img.style.marginLeft = -((img.width / 2) + "px");
         }

@@ -137,8 +137,8 @@ label#upload input[type="file"] {
 }
 
 #uploaded-image {
-    height: 100%;
-    width: auto;
+    /*    height: 100%;*/
+    /*    width: auto;*/
     opacity: .85;
 }
 
