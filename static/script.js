@@ -34,7 +34,7 @@ function download() {
         onrendered: function (canvas) {
             var link = document.createElement('a');
             link.setAttribute('download', 'polaroid.png');
-            link.setAttribute('href', 'data:application/octet-stream;' + encodeURIComponent(canvas));
+            link.setAttribute('href', 'data:image/png;' + canvas);
             link.click();
             window.location.reload();
         }
