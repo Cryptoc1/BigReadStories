@@ -36,7 +36,7 @@ function download() {
             link.setAttribute('download', 'polaroid.png');
             link.setAttribute('href', 'data:application/octet-stream;' + canvas);
             link.click();
-            //            window.location.reload();
+            window.location.reload();
         }
     });
 }
